@@ -1,0 +1,13 @@
+// Projects.js
+
+// Get all project elements
+const projects = document.querySelectorAll('.project');
+
+// Add event listeners
+projects.forEach(project => {
+    project.addEventListener('click', () => {
+        // Show project details
+        const projectDetails = project.querySelector('.project-details');
+        projectDetails.classList.toggle('active');
+    });
+});
