@@ -1,0 +1,51 @@
+/* Project Styles */
+
+.project {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project p {
+    margin-bottom: 1.5rem;
+}
+
+.project ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #444;
+}
+
+.project button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.project button:hover {
+    background-color: #444;
+}
