@@ -1,0 +1,28 @@
+// Script.js
+
+// Get all elements
+const header = document.querySelector('header');
+const nav = document.querySelector('nav');
+const main = document.querySelector('main');
+const footer = document.querySelector('footer');
+
+// Add event listeners
+header.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Mobile menu toggle
+const mobileMenu = document.querySelector('.mobile-menu');
+mobileMenu.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
