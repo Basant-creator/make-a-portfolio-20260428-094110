@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="index.html" class="active">Index</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="project-detail">
+            <h1>Food Ordering Web App</h1>
+            <p>A web app that allows users to order food from local vendors.</p>
+            <p>Features:</p>
+            <ul>
+                <li>User authentication</li>
+                <li>Food ordering system</li>
+                <li>Payment gateway integration</li>
+            </ul>
+            <button>View Code</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Portfolio</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/johndoe/">LinkedIn</a></li>
+            <li><a href="https://www.github.com/johndoe/">GitHub</a></li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
